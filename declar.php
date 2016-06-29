@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+	<html>
 <?php
 $object = new User;
 print_r($object);
@@ -12,3 +14,4 @@ class User
 	}
 }
 ?>
+</html>
