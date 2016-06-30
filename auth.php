@@ -2,7 +2,7 @@
 if (isset($_SEVER['PHP_AUTH_USER']) &&
 isset($_SEVER['PHP_AUTH_PW']))
 {
-	ECHO "Welcome User: " . $_SEVER['PHP_AUTH_USER'] .
+	echo "Welcome User: " . $_SEVER['PHP_AUTH_USER'] .
 		"Password: " . $_SEVER['PHP_AUTH_PW'];
 }
 else
