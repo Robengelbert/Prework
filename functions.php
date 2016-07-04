@@ -1,7 +1,7 @@
 <?php // functions.php
 $dbhost  = 'localhost';    // Unlikely to require changing
-$dbname  = 'robsnest';   // Modify these...
-$dbuser  = 'robsnest';   // ...variables according
+$dbname  = 'robinsnest';   // Modify these...
+$dbuser  = 'robinsnest';   // ...variables according
 $dbpass  = 'rbpassword';   // ...to your installation
 $appname = "Robin's Nest"; // ...and preference
 
