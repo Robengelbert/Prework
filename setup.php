@@ -8,7 +8,7 @@
 		<h3>Setting up...</h3>
 
 		<?php //  setup.php
-		require_once 'functions.php';
+		require_once ('prework/functions.php');
 
 		createTable('members',
 			'user VARCHAR(16),
