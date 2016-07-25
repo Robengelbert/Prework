@@ -3,7 +3,7 @@ session_start();
 
 echo "<!DOCTYPE html>\n<html><head>";
 
-require_once 'functions.php';
+require_once ('prework/functions.php');
 
 $userstr = ' (Guest)';
 
