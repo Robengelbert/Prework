@@ -1,8 +1,6 @@
 body{
 	padding-top: 70px;
-}
-form{
-	background-color: lightgray;
+	background: linear-gradient(blue,gray);
 }
 footer{
 	background-color: darkgray;
@@ -15,4 +13,12 @@ footer{
 }
 .navbar-brand{
 	color:white;
+}
+.contact{
+	background-color: lightgray;
+	margin-bottom: 20px;
+}
+form{
+	padding-top: 10px;
+	margin-bottom: 10px;
 }
