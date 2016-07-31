@@ -1,3 +1,18 @@
 body{
 	padding-top: 70px;
 }
+form{
+	background-color: lightgray;
+}
+footer{
+	background-color: darkgray;
+	color:white;
+	height: 50px;
+	text-align:center;
+}
+.nav-link{
+	color:white;
+}
+.navbar-brand{
+	color:white;
+}
