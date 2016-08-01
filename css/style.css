@@ -1,6 +1,7 @@
-/*to keep page content from going behind the navbar*/
+/*to keep page content from going behind the navbar and give the body a lightgray color*/
 body{
 	padding-top: 70px;
+	background-color: lightgray;
 }
 /*to resize banner image at the top*/
 .resize{
@@ -24,6 +25,9 @@ footer{
 .navbar-brand{
 	color:white;
 }
+.me{
+	margin-top:15px;
+}
 /*form styles*/
 .contact{
 	background-color: lightgray;
@@ -33,7 +37,7 @@ form{
 	padding-top: 10px;
 	margin-bottom: 10px;
 }
-/* media queries */
+/* -------media queries-------- */
 @media (min-width: 1065px) {
 	.image {
 		position: relative;
@@ -44,5 +48,10 @@ form{
 		position: absolute;
 		top: 150px;
 		left: 75px;
+	}
+	@media (max-width: 965px){
+		.me{
+			margin-left:25px;
+		}
 	}
 }
