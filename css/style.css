@@ -1,21 +1,30 @@
+/*to keep page content from going behind the navbar*/
 body{
 	padding-top: 70px;
 }
+/*to resize banner image at the top*/
 .resize{
 	width:100%;
 }
+/*to resize portfolio images*/
+.port{
+	width:85%
+}
+/*to add and style the footer*/
 footer{
 	background-color: darkgray;
 	color:white;
 	height: 50px;
 	text-align:center;
 }
+/*to change the color of my nav links and brand to white*/
 .nav-link{
 	color:white;
 }
 .navbar-brand{
 	color:white;
 }
+/*form styles*/
 .contact{
 	background-color: lightgray;
 	margin-bottom: 20px;
@@ -25,7 +34,7 @@ form{
 	margin-bottom: 10px;
 }
 /* media queries */
-@media (min-width: 650px) {
+@media (min-width: 1065px) {
 	.image {
 		position: relative;
 		padding-bottom: 20px;
@@ -36,5 +45,4 @@ form{
 		top: 150px;
 		left: 75px;
 	}
-	/* need another media query so the text is readable at 635 to 985px */
 }
