@@ -5,8 +5,10 @@ body{
 }
 /*to resize banner image at the top*/
 .resize{
+	background:url("../images/sandia-mtn.jpg")no-repeat;
 	width:100%;
-/*background:url("../images/sandia-mtn.jpg");*/
+	height:100rem;
+
 }
 /*to resize portfolio images*/
 .port{
